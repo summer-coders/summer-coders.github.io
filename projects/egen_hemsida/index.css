@@ -1,0 +1,61 @@
+section {
+  float:left;
+}
+
+h1 {
+  text-align:center
+  color:lightgreen ;
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: center;
+  color: lightgreen;
+}
+
+
+.menu {
+  background-color: black;
+  padding: 200px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+
+.menu li
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.blue {
+  background: #55bbff;
+  float:right;
+  padding: 30;
+}
+
+h4 {
+  font-size:300px;
+}
+
+h5 {
+  font-size: 300px;
+}
+
+body {
+  background-color: black;
+}f

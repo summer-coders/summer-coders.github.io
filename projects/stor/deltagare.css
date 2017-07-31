@@ -1,0 +1,27 @@
+/* Deltagarens Egen CSS */
+
+.ommig img.profile {
+  width: 300px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.details h2 {
+  color: blue;
+}
+
+.details p {
+  color: black ;
+}
+
+.hobbies h2 {
+  color: yellow;
+}
+
+.tagline h1 {
+  color: blue;
+}
+.tagline h4 {
+  color: green;
+  text-align: center;
+}

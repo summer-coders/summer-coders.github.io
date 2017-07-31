@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    /* height: 50px; */
+    background-color: #2f2f38;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+header {
+    background-image: url('https://www.hdwallpapers.net/previews/hot-air-balloon-over-the-mountain-987.jpg');
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+
+main {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+.ommig h1, p {
+    text-align: center;
+}
+
+.ommig h1 {
+    font-weight: 400;
+}
+
+.ommig img.profile {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.ommig .hobbies {
+    text-align: center;
+}
+
+.ommig .hobbies ul {
+    list-style: none;
+}
+
+.ommig .hobbies ul li {
+    display: inline-block;
+}
+
+.ommig .hobbies ul li img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ommig .hobbies ul li img:hover {
+    box-shadow: 2px 2px 2px #2f2f38;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact address {
+    float: left;
+}
+
+.contact address a {
+    color: green;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact address a:hover {
+    font-weight: bold;
+}
+
+
+.contact iframe {
+    float: right;
+    margin-left: 40px;
+}

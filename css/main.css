@@ -1,0 +1,51 @@
+nav.code-nav {
+  margin-bottom: 0px;
+  border-color: transparent; }
+
+img.logo {
+  max-width: 70%; }
+
+header .jumbotron {
+  background-color: transparent; }
+
+.grid-item {
+  padding: 12px;
+  width: 400px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px #999;
+  border-radius: 4px;
+  height: 200px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out; }
+  .grid-item .top {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .grid-item .top .details {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .grid-item .top .details h3 {
+        text-align: center; }
+      .grid-item .top .details ul.list {
+        list-style: none;
+        padding-left: 0px;
+        text-align: center; }
+        .grid-item .top .details ul.list li p {
+          margin: 2px auto;
+          color: #d9230f; }
+          .grid-item .top .details ul.list li p:hover {
+            color: #d9230f; }
+      .grid-item .top .details:hover {
+        text-decoration: none; }
+  .grid-item:hover {
+    box-shadow: 2px 2px 7px #999; }
+  @media screen and (max-width: 375px) {
+    .grid-item {
+      width: 320px; } }
+  @media screen and (orientation: landscape) {
+    .grid-item {
+      width: 600px; } }
+
+/*# sourceMappingURL=main.css.map */
