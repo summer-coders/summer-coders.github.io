@@ -1,0 +1,20 @@
+body {
+  background-image: url("http://wallpapercave.com/wp/939VtqR.jpg");
+  background-repeat: no-repeat;
+  margin: 0px;
+  font-family: sans-serif;
+  background-size: cover;
+}
+
+nav {
+  float: right;
+  width: 100%;
+    position: fixed;
+     height: 50px;
+     top: 0;
+    background-color: black;
+}
+
+.Map iframe {
+  width: 50%;
+}
